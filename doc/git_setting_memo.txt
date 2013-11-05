@@ -1,0 +1,23 @@
+■GitHubのアカウントを作成
+　・ユーザー名(半角英数とハイフン)
+　・メールアドレス
+　・パスワード
+
+■Gitのクライアントをインストール
+　https://help.github.com/articles/set-up-git
+
+■試しにリポジトリを作る
+　・クライアントを起動してログイン 
+　・Repositry欄に「No Repositry」と表示されているのでCreateを押して作成
+　・リポジトリ名[BioDevOps]で作成
+　　ローカルにディレクトリが作成され、GitHubにもPushされる
+
+■(未実施)リポジトリから取得
+
+■リポジトリにpublishする
+　・ローカルリポジトリを編集してcommitしたあと、publishボタンを押して公開する。
+　・proxyの設定をしていないとエラーになる。
+
+■proxyを設定する
+　・歯車アイコンをクリック → 「Open a Shell here」
+　> git config http.proxy http://proxy.example.com:8080
