@@ -21,3 +21,6 @@
 ■proxyを設定する
 　・歯車アイコンをクリック → 「Open a Shell here」
 　> git config http.proxy http://proxy.example.com:8080
+
+■参考リンク
+　・http://chocolatina.github.io/github-for-windows-tutorial/
