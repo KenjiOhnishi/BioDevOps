@@ -1,0 +1,5 @@
+# Cookbookのダウンロード先
+site :opscode
+# 利用するCookbook
+cookbook 'nodejs'
+cookbook 'hello', path:'site-cookbooks/hello'
